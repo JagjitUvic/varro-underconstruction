@@ -41,6 +41,19 @@
   font-family: Serif;
   width: 45%;
 }
+@media only screen and (max-width: 600px) {
+  .middle {
+    width: 90%;
+    top: 49%;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  .topleft {
+    min-width: 50vw;
+    left: 26vw;
+  }
+}
 
 .link {
   background-color: black;
